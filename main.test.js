@@ -1,8 +1,39 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let x= 3
 
+let y= 10
 
+let squareTheNumber= 4
+
+let greeting= 'hello'
+
+let firstName= 'carlos'
+
+let calling= 'ringing'
+    
+
+function double(){
+  x= x+x
+}
+function triple(){
+  y= y*3
+}
+
+function square(){
+  squareTheNumber= squareTheNumber* squareTheNumber
+}
+function beingNice(){
+  greeting= 'hello'+ firstName
+}
+function fullName(){
+  firstName= 'not found'
+}
+
+function phoneCall(){
+  calling= 'call ended'
+}
 
 
  
@@ -44,7 +75,7 @@ if (typeof double === 'undefined') {
 }
 
 if (typeof triple === 'undefined') {
-  triple = undefined;
+  triple = undefined; 
 }
 
 if (typeof square === 'undefined') {
